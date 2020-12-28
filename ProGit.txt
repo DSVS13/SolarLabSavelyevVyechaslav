@@ -106,7 +106,8 @@ git2 DSVS13 для локального
  Скачивание изменений из удаленного репозитория
 	git fetch <адрес_репозитория>
 
-
+ История коммитов
+	gitk&
 
 https://bitbucket.org/account/signup/
 Vyacheslav13
