@@ -1,2 +1,2 @@
-# SolorLabSavelyevVyechaslav
+# SolarLabSavelyevVyechaslav
 test
