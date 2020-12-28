@@ -1,6 +1,33 @@
 Пройти уроки: https://learngitbranching.js.org/?locale=ru_RU		
+Создать новую ветку					
+	git branch newImage				
+Переключится на другую ветку					
+	git checkout [name]			git checkout master	
+Сделать комит					
+	git commit				
+Создать ветку и переключится на неё					
+	git checkout -b [yourbranchname]			bugFix	git checkout -b bugFix
+Слияние ветки в которой находимся с указанной мерж					
+	 git merge bugFix				
+Слияние ветки в которой находимся с указанной ребэйз					
+	git rebase master				
+Отделение головы или присвоение головы коммиту. Было HEAD -> master -> C1 стало HEAD -> C1					
+	git checkout C1				
+Переключить head выше на родителя					
+	git checkout master^				
+	git checkout HEAD^				
+Переключить head выше на несколько коммитов					
+	git checkout HEAD~4				
+Переключает ветку выше, где master это имя ветки					
+	git branch -f master HEAD~3				
+Отмена комммита на шаг назад с удалением последнего					
+	git reset HEAD~1				
+Отмена комммита на шаг назад без удаления последнего с сохранением истории					
+	git revert HEAD				
+Перенести несколько коммитов в текущую ветку					
+	git cherry-pick C2 C4				
+Замена коммитов местами							
 		
-Main		
 1.1		
 	git commit;	
 	git commit;	
