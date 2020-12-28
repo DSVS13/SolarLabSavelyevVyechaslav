@@ -1,4 +1,5 @@
 Пройти уроки: https://learngitbranching.js.org/?locale=ru_RU		
+
 Создать новую ветку					
 	git branch newImage				
 Переключится на другую ветку					
